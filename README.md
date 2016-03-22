@@ -156,7 +156,7 @@ The chat leaves validation to the `PUT /messages/:id` endpoint. Returned error m
 
 
 ## Browser support
-The chat has been tested in all modern browsers (Chrome, Safari, Firefox, Opera, IE10+) and most features may work in legacy browsers. A message asks users to upgrade when using a legacy browser.
+The chat has been tested in modern browsers (Chrome, Safari, Firefox, Opera, IE10+) and most features may work in legacy browsers. A message asks users to upgrade when using a legacy browser.
 
 
 
@@ -167,11 +167,11 @@ I host the fonts on my paid http://www.fonts.com/ account.
 
 ## Future improvements
 On top of my list for future improvements:
-- Log JavaScript errors with AJAX in js/helpers.js.
+- Log JavaScript errors with ajax in js/helpers.js.
 - Responsive design and support for mobile devices.
 - Scrollable sidebar with a custom styled scrollbar.
 - Increase the padding in the chat when the textarea grows so that you can read all messages while writing long messages.
 - Add support for drawing.
 - Make the user interface more accessible to screen readers and other assistive technology by implementing ARIA live regions https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/ARIA_Live_Regions.
 - Better error handling for things like network problems.
-- Porting the codebase to a framework like Ember as the project grows and need more advanced features, powerful data models, url routes, etc. It should be easy to map the existing functionality to most JavaScript frameworks.
+- Porting the codebase to a framework like Ember as the project grows and needs more advanced features, powerful data models, url routes, etc. It should be easy to map the existing functionality to most JavaScript frameworks.
