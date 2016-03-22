@@ -177,3 +177,4 @@ On top of my list for future improvements:
 - Make the user interface more accessible to screen readers and other assistive technology by implementing ARIA live regions https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/ARIA_Live_Regions.
 - Better error handling for things like network problems.
 - Porting the codebase to a framework like Ember as the project grows and need more advanced features, powerful data models, url routes, etc. It should be easy to map the existing functionality to most JavaScript frameworks.
+- a
