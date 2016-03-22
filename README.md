@@ -60,15 +60,15 @@ Task flow: https://drive.google.com/open?id=0B9iTo36lSJEjQkNObzdVVVRCM0E
 
 ### Message types
 There are three message types that can be displayed in the chat:
-1. **Message**. The default option that can hold any type of content but it is generally formatted text.
-2. **Media**. These hold media like images, video, or audio. They have two additional options: `thumbnail` and `caption`.
-3. **Breakpoint**. Breakpoints are simple dividers with titles to represent the start of a new lesson in the chat.
+- **Message**. The default option that can hold any type of content but it is generally formatted text.
+- **Media**. These hold media like images, video, or audio. They have two additional options: `thumbnail` and `caption`.
+- **Breakpoint**. Breakpoints are simple dividers with titles to represent the start of a new lesson in the chat.
 
 ### Input types
 There are three input options:
-1. **Text**. The user enters free text in a textarea.
-2. **Options**. The user can select from one or more options.
-3. **Custom**. Custom HTML is displayed in the input area. This is generally only used at the end of a courselet.
+- **Text**. The user enters free text in a textarea.
+- **Options**. The user can select from one or more options.
+- **Custom**. Custom HTML is displayed in the input area. This is generally only used at the end of a courselet.
 
 ### Selectables
 Some input options are too large or complex to display in the input area. Selectables allow us to embed selectable elements within messages and pass them on with the input. They are generally used together with an input option to submit the selection. We use selectables to display error models when self-assessing.
