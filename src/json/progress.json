@@ -1,0 +1,47 @@
+{
+   "progress":0.2,
+   "breakpoints":[
+      {
+         "id":0,
+         "html":"Formatted messages",
+         "isDone":false,
+         "isUnlocked":true
+      },
+      {
+         "id":1,
+         "html":"Selectables",
+         "isDone":false,
+         "isUnlocked":true
+      },
+      {
+         "id":2,
+         "html":"Images",
+         "isDone":false,
+         "isUnlocked":true
+      },
+      {
+         "id":3,
+         "html":"More\/Less",
+         "isDone":false,
+         "isUnlocked":true
+      },
+      {
+         "id":4,
+         "html":"Embedded video and audio",
+         "isDone":false,
+         "isUnlocked":true
+      },
+      {
+         "id":5,
+         "html":"Equations",
+         "isDone":false,
+         "isUnlocked":true
+      },
+      {
+         "id":6,
+         "html":"Overflow Actions",
+         "isDone":false,
+         "isUnlocked":true
+      }
+   ]
+}

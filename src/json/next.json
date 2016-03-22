@@ -1,0 +1,23 @@
+{
+  "input": {
+    "type": "options",
+    "url": "json/save-input.json",
+    "options": [
+      {
+        "value": 1,
+        "text": "Continue"
+      }
+    ]
+  },
+
+  "addMessages": [
+    {
+      "id": 101,
+      "type": "message",
+      "userMessage": false,
+      "name": "Teacher Name",
+      "avatar": "",
+      "html": "Message HTML."
+    }
+  ]
+}
