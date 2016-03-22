@@ -51,10 +51,10 @@ The src folder comes with basic static json files to test with until the API end
 
 ## Data flow
 The data flow in the chat is fairly simple.
-1. We start with loading history data that returns the user's history or the first set of messages. It includes an input object that sets the user's input settings (text or predefined options) and a url for us to send input to.
-2. The user posts input to this url and gets a new url in return where the next set of messages will be fetched, or it will return an error message that is displayed as a notification.
-3. If we did not get an error in the previous step, we call the returned url to fetch the next set of messages, input options, and the input url. The user posts input to the new url and this loop continues until the user reaches the end of the courselet.
-4. A custom input option is displayed at the end and it usually holds a button linking to a different page.
+- 1. We start with loading history data that returns the user's history or the first set of messages. It includes an input object that sets the user's input settings (text or predefined options) and a url for us to send input to.
+- 2. The user posts input to this url and gets a new url in return where the next set of messages will be fetched, or it will return an error message that is displayed as a notification.
+- 3. If we did not get an error in the previous step, we call the returned url to fetch the next set of messages, input options, and the input url. The user posts input to the new url and this loop continues until the user reaches the end of the courselet.
+- 4. A custom input option is displayed at the end and it usually holds a button linking to a different page.
 
 Task flow: https://drive.google.com/open?id=0B9iTo36lSJEjQkNObzdVVVRCM0E
 
