@@ -60,7 +60,7 @@ The data flow in the chat is fairly simple.
 - 3. If we did not get an error in the previous step, we call the returned url to fetch the next set of messages, input settings, and the input url. The user posts input to the new url and this loop continues until the user reaches the end of the courselet.
 - 4. A custom input option is displayed at the end and it usually holds a button linking to a different page.
 
-Task flow: https://drive.google.com/open?id=0B9iTo36lSJEjQkNObzdVVVRCM0E
+Task flow: https://drive.google.com/file/d/0B9iTo36lSJEjZThkS1hNVG5lUGs/view?usp=sharing
 
 ### Message types
 There are three message types that can be displayed in the chat:
